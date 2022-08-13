@@ -21,7 +21,7 @@ export function TeamPage() {
       console.log(team);
     };
     fetchTeam();
-  }, [teamName,team]);
+  }, [teamName]);
 
   if (!team || !team.teamName) {
     return <h1>Team Not Found</h1>;
